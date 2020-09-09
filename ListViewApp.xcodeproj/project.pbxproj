@@ -13,6 +13,7 @@
 		C7D1A3852504C000002BBF00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D1A3842504C000002BBF00 /* Assets.xcassets */; };
 		C7D1A3882504C000002BBF00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D1A3872504C000002BBF00 /* Preview Assets.xcassets */; };
 		C7D1A38B2504C000002BBF00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D1A3892504C000002BBF00 /* LaunchScreen.storyboard */; };
+		C7D1A3932504C25D002BBF00 /* TaskFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1A3922504C25D002BBF00 /* TaskFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C7D1A3872504C000002BBF00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C7D1A38A2504C000002BBF00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7D1A38C2504C000002BBF00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7D1A3922504C25D002BBF00 /* TaskFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		C7D1A3722504BFFD002BBF00 = {
 			isa = PBXGroup;
 			children = (
+				C7D1A3922504C25D002BBF00 /* TaskFile.swift */,
 				C7D1A37D2504BFFD002BBF00 /* ListViewApp */,
 				C7D1A37C2504BFFD002BBF00 /* Products */,
 			);
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D1A3932504C25D002BBF00 /* TaskFile.swift in Sources */,
 				C7D1A37F2504BFFD002BBF00 /* AppDelegate.swift in Sources */,
 				C7D1A3812504BFFD002BBF00 /* SceneDelegate.swift in Sources */,
 				C7D1A3832504BFFE002BBF00 /* ContentView.swift in Sources */,
